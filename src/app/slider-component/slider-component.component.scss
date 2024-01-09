@@ -1,0 +1,30 @@
+.slider-content {
+  position: absolute;
+  top: 50%; /* Position content vertically centered */
+  left: 50%; /* Position content horizontally centered */
+  transform: translate(-50%, -50%); /* Center content precisely */
+  text-align: center; /* Center text within the content */
+  color: black; /* Text color */
+  h2 {
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+  }
+}
+
+.slider-content h2 {
+  font-size: 24px;
+}
+
+.slider-content p {
+  font-size: 16px;
+}
+
+.slider-content .btn {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
